@@ -50,7 +50,7 @@ public class ApproximateObjectSize implements ObjectSize {
     /**
      * Returns size of a given type
      *
-     * @return size of the type if it's primitive, wrapper, array or {@code String}, {@code 0} otherwise.
+     * @return size of the type
      */
     private long sizeOf(Object object) {
         long size;
